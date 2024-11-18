@@ -1,6 +1,9 @@
 import "../scss/App.scss";
 import Header from "./Header";
 import Cells from "./Cells";
+import Warehouse from "./Warehouse";
+import Dices from "./Dices";
+import Reset from "./Reset";
 
 function App() {
   return (
@@ -8,28 +11,9 @@ function App() {
       <Header />
       <main className="page">
         <Cells />
-        <section>
-          <button className="dice">Lanzar Dado</button>
-          <div className="game-status">En curso</div>
-        </section>
-        <section className="goods-container">
-          <div className="goods-item">🍪</div>
-          <div className="goods-item">🍪</div>
-          <div className="goods-item">🍪</div>
-        </section>
-        <section className="goods-container">
-          <div className="goods-item">🥚</div>
-          <div className="goods-item">🥚</div>
-          <div className="goods-item">🥚</div>
-        </section>
-        <section className="goods-container">
-          <div className="goods-item">🐸</div>
-          <div className="goods-item">🐸</div>
-          <div className="goods-item">🐸</div>
-        </section>
-        <section>
-          <button className="restart-button">Reiniciar Juego</button>
-        </section>
+        <Dices />
+        <Warehouse />
+        <Reset />
       </main>
     </>
   );
