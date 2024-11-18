@@ -3,13 +3,13 @@ import "../scss/App.scss";
 function App() {
   return (
     <>
-      <header>
+      <header className="page">
         <h1>¡Cuidado con Grogu!</h1>
       </header>
       <main className="page">
-        <section className="Nameboard">
+        <section className="board">
           <div className="cell">
-            <div className="grogu">:huellas:</div>
+            <div className="grogu">👣</div>
           </div>
           <div className="cell"></div>
           <div className="cell"></div>
