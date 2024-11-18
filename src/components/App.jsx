@@ -1,8 +1,8 @@
 import "../scss/App.scss";
 import Header from "./Header";
-import Cells from "./Cells";
+import Board from "./Board";
 import Warehouse from "./Warehouse";
-import Dices from "./Dices";
+import Dice from "./Dice";
 import Reset from "./Reset";
 
 function App() {
@@ -10,8 +10,8 @@ function App() {
     <>
       <Header />
       <main className="page">
-        <Cells />
-        <Dices />
+        <Board />
+        <Dice />
         <Warehouse />
         <Reset />
       </main>

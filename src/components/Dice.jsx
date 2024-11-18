@@ -1,4 +1,4 @@
-function Dices() {
+function Dice() {
     return (
     <section>
         <button className="dice">Lanzar Dado</button>
@@ -7,4 +7,4 @@ function Dices() {
     );
 }
 
-export default Dices;
+export default Dice;
