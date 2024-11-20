@@ -4,7 +4,7 @@ import Board from "./Board";
 import Warehouse from "./Warehouse";
 import Dice from "./Dice";
 import Reset from "./Reset";
-import React, { useState } from "react";
+import { useState } from "react";
 
 function App() {
   const [groguPosition, setGroguPosition] = useState(0);
