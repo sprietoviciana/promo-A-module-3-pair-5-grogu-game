@@ -1,7 +1,7 @@
 import Grogu from "./Grogu";
 
 function Board() {
-  Array(7).fill(null).map();
+  //Array(7).fill(null).map();
 
   return (
     <section className="board">
