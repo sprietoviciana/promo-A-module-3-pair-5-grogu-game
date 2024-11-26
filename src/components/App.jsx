@@ -7,6 +7,7 @@ import Reset from "./Reset";
 import Form from "./Form";
 import { useState } from "react";
 import PropTypes from "prop-types";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   const [groguPosition, setGroguPosition] = useState(0);
